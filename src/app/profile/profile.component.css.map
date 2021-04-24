@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,AAAA,OAAO,CAAC;EACV,OAAO,EAAE,OAAO;CACnB",
+    "sources": [
+        "profile.component.scss"
+    ],
+    "names": [],
+    "file": "profile.component.css"
+}

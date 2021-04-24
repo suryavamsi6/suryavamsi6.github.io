@@ -1,0 +1,22 @@
+.intron {
+    display: flex;
+    justify-content: center;
+}
+
+.status {
+    display: flex;
+    justify-content: center;
+}
+
+.name::before {
+    content: '\00a0';
+}
+
+.socialset {
+    display: flex;
+    justify-content: center;
+}
+
+.social::before {
+    content: '\00a0\00a0';
+}

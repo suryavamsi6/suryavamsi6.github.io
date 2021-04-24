@@ -1,1 +1,204 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.mynav {
+    font-family: 'Lato', sans-serif;
+    background-color: #0a1930;
+}
+
+.social:hover {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #68738f;
+    font-weight: 400;
+}
+
+.fab:hover {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #5bc9b7
+}
+
+h2 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.name {
+    color: #e91e63;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.head {
+    font-family: 'Mulish', sans-serif;
+}
+
+.ident {
+    font-weight: bold;
+}
+
+.card {
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    margin: 1rem;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .05);
+    transition: all .2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover,
+.hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 1rem -.25rem var(--background);
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.overlay-content {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#background {
+    color: #68738f;
+    padding-bottom: 100px;
+}
+
+#profile {
+    padding-bottom: 100px;
+}
+
+#projects {
+    padding-bottom: 100px;
+}
+
+#skills {
+    color: #68738f;
+    padding-bottom: 100px;
+}
+
+#contact {
+    padding-bottom: 100px;
+}
+
+.card-title {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-footer {
+    border-top: none;
+}
+
+.lang {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 13px;
+}
+
+body {
+    background-color: #222;
+}
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #242f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+}
+
+.loader {
+    display: inline-block;
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(180deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader-inner {
+    0% {
+        height: 0%;
+    }
+    25% {
+        height: 0%;
+    }
+    50% {
+        height: 100%;
+    }
+    75% {
+        height: 100%;
+    }
+    100% {
+        height: 0%;
+    }
+}
