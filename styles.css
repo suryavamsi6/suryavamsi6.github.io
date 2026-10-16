@@ -1,20 +1,20 @@
 /* ═══════════════════════════════════════════════════════════════
    Surya Vamsi · Type and nothing else
-   Direction sheet seed 151553771 · Boska · Carmine field
+   Direction sheet seed 151553771 · Boska · Green-black and bone
    Tokens only; nothing downstream hard-codes a colour or size.
    ═══════════════════════════════════════════════════════════════ */
 
 :root {
-  --bg: #9c1220;          /* carmine ground */
-  --surface: #8a101c;     /* carmine, one step down */
-  --ink: #ffffff;
-  --muted: #f9d9db;       /* soft pink, 7.4:1 on surface */
-  --accent: #ffd9dc;      /* pale pink paper */
-  --accent-ink: #7c0e19;    /* deep carmine, 8.4:1 on the accent field */
+  --bg: #161c1a;          /* green-black ground */
+  --surface: #1f2725;     /* green-black, one step down */
+  --ink: #e3e2da;         /* bone */
+  --muted: #c2c9c2;       /* soft bone, 9:1 on surface */
+  --accent: #9fc7b8;      /* pale jade paper */
+  --accent-ink: #161c1a;    /* green-black, 9.3:1 on the accent field */
   --field-1: #2a2a2a;     /* charcoal, the work field */
   --field-2: #232323;     /* charcoal, one step down */
-  --field-ink: #ffffff;
-  --field-muted: #c9c9c9;
+  --field-ink: #e3e2da;
+  --field-muted: #c9cfc9;
 
   --serif: 'Boska', Georgia, 'Times New Roman', serif;
 
